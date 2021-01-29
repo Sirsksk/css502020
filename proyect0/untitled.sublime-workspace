@@ -27,34 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/andrespriego/Documents/css502020/proyect0/index.html",
-			"settings":
-			{
-				"buffer_size": 2030,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "<!DOCTYPE html>"
-			}
-		},
-		{
-			"file": "/Users/andrespriego/Downloads/src0/src0/flexbox.html",
-			"settings":
-			{
-				"buffer_size": 2309,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/andrespriego/Downloads/src0/src0/bootstrap.html",
-			"settings":
-			{
-				"buffer_size": 615,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,8 +60,6 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrespriego/Documents/css502020",
-		"/Users/andrespriego/Documents/css502020/lecture1",
 		"/Users/andrespriego/Documents/css502020/proyect0"
 	],
 	"file_history":
@@ -137,100 +107,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/andrespriego/Documents/css502020/proyect0/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								979,
-								979
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/andrespriego/Downloads/src0/src0/flexbox.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/andrespriego/Downloads/src0/src0/bootstrap.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 615,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -270,7 +148,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "css502020.sublime-project",
+	"project": "untitled.sublime-project",
 	"replace":
 	{
 		"height": 0.0

@@ -3,21 +3,76 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
+    <style>
+      body{
+        margin: 30px;
+
+      }
+        .my-container {
+
+          background-color:orange;
+        }
+        .my-row {
+          margin: 10px;
+          border: 3px dotted green;
+          background-color:purple;
+        }
+
+        .my-col{
+          margin: 10px;
+          border: 3px solid yellow;
+          background-color:blue;
+        }
+    </style>
     <title>Search</title>
   </head>
+
+
   <body>
-  
-
-          
-         
-            
-
+    <div class="container flex-container">
+      <ul class="nav justify-content-end"> <!-- NavBar Menu-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Images</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Advanced Search</a>
+        </li>
+      </ul>
+      <nav class="navbar fixed-bottom navbar-light bg-light">
+      <a class="navbar-brand" href="#">Fixed bottom</a>
+      </nav>
+  </div>
+    <div class="container my-container"> <!-- Main Body-->
+        <div class="row my-row">
+              hola k ase
+        </div>
       
+      <div class="row justify-content-center my-row ">
+          <div class="row-cols justify-content-center ">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="auto" height="auto" alt="Google_2015_logo">
+          </div>
+      </div>
+
+      <div class="row justify-content-center my-row">
+          <div class="col-8 col-sm-* my-col ">
+            Row 3 col 1
+            <div id="search_button" name="search_button"> 
+                        <form action="https://google.com/search">
+                            <input type="text" name="q" class="form-control float-none border border-rounded-pill">
+                           
+                            <input type="submit" value="Google Search" class="btn btn-light  rounded mt-3">
+                            <input type="submit" value="I'm feeling lucky" class="btn btn-light rounded mt-3">
+                        </form>      
+            </div>
+          </div>
+      </div>
+    </div>
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

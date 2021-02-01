@@ -4,24 +4,12 @@
 		"selected_items":
 		[
 			[
-				"sea",
-				"search_button"
+				"my-",
+				"my-col"
 			],
 			[
-				"font",
-				"font-family\tproperty"
-			],
-			[
-				"fo",
-				"font-style\tproperty"
-			],
-			[
-				"text",
-				"text-align\tproperty"
-			],
-			[
-				"th",
-				"thead\tTag"
+				"my",
+				"my-row"
 			]
 		]
 	},
@@ -39,12 +27,20 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"intall p",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 152.0,
 		"history":
 		[
 		]
@@ -58,25 +54,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/andrespriego/Documents/css502020/proyect0"
-	],
 	"file_history":
 	[
-		"/Users/andrespriego/Documents/css502020/proyect0/index.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/style.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/form.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/tables.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/hello.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/link.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/image.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/lists.html",
-		"/Users/andrespriego/Documents/css502020/lecture1/headings.html"
+		"/Users/andrespriego/Documents/css502020/proyect0/rowstuff",
+		"/Users/andrespriego/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/andrespriego/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -114,11 +100,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -148,10 +134,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "untitled.sublime-project",
+	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -189,7 +175,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

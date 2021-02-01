@@ -3,62 +3,87 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
+    <style>
+      body{
+        margin: 30px;
+
+      }
+        .my-container {
+
+          background-color:orange;
+        }
+        .my-container2 {
+
+          background-color:green;
+        }
+
+        .my-row {
+          margin: 10px;
+          background-color:purple;
+        }
+
+        .my-col{
+          margin: 10px;
+          background-color:blue;
+        }
+    </style>
     <title>Search</title>
   </head>
+
   <body>
-      <div class="container">
-          <div class="row align-items-left"> <!-- Header -->
-              <div class="col d-flex justify-content-end">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb bg-transparent">
-                    <li class="breadcrumb-item"><a href="#">Images</a></li>
-                    <li class="breadcrumb-item"><a href="#">Advance Search</a></li>
-                  </ol>
-                </nav>
-              </div>
-          </div>     
-          <div class="row mt-5 p-5 col d-flex justify-content-center"><!-- Google Logo-->
-                <div class="align-self-center">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="auto" height="auto" alt="Google_2015_logo">
-                                           <!-- Searching badass sex machine-->
-               <div class="d-flex justify-content-center flex-nowrap">
-                  <div>
-                    <div id="search_button" name="search_button"> 
-                        <form action="https://google.com/search">
-                            <input type="text" name="q" class="form-control mt-3 float-none rounded">
-                           
-                            <input type="submit" value="Google Search" class="btn btn-light  rounded mt-3">
-                            <input type="submit" value="I'm feeling lucky" class="btn btn-light rounded mt-3">
-                        </form>      
-                    </div>
-                  </div>
-                  </div>  
-                <div class=" row"> <!-- Footer-->
-                  <div class="col">
-                     <div class="fixed-bottom">Soy el footer woe</div>
-                  </div>
-                </div>  
+    <div class="container flex-container">
+      <ul class="nav justify-content-end"> <!-- NavBar Menu-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Images</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Advanced Search</a>
+        </li>
+      </ul>
+    </div>
 
-
-                </div>
-               
-
-          </div> 
-         
-            
-
+  <div class="container"> <!-- Main Body-->
+      <div class="row justify-content-center mt-5 pt-4 ">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" width="272" height="92" alt="Google_2015_logo">
       </div>
-      <!-- No CopyRight  intended
-      <a href="https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg">Google Inc.</a>, Public domain, via Wikimedia Commons-->
-      <!-- Optional JavaScript -->
+  </div>
+
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-7  col-xs-12">
+            <div id="search_button" name="search_button"> 
+                        <form action="https://google.com/search">
+                             <div class="col-xs-12 col-sl-6 mt-4">
+                              <div class="form-control border input-focus" style="border-radius: 30px;">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-white border-0">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                      </svg>
+                                    </span>
+                                    <input type="text" name="q" class="form-control border-0">
+                                  </div>
+                                </div>
+                              </div>
+                             <div class="row justify-content-center mt-4 col-xs-6 col-sl-6 flex-nowrap">
+                                <input type="submit" value="Google Search" class="btn btn-light mr-2">
+                                <input type="submit" value="I'm feeling lucky" class="btn btn-light ml-2">
+                             </div>
+                        </form>  
+              </div>
+                             
+            </div>
+          </div>
+
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html>

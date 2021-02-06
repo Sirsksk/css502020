@@ -23,6 +23,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5779,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -62,6 +71,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/andrespriego/Documents/css502020/proyect0"
+	],
 	"file_history":
 	[
 		"/Users/andrespriego/Documents/css502020/proyect0/index.sublime-workspace",
@@ -102,8 +115,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3432,
+								3432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 834.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -143,7 +187,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "index.sublime-project",
+	"project": "untitled.sublime-project",
 	"replace":
 	{
 		"height": 44.0
